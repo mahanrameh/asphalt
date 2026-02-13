@@ -1,0 +1,48 @@
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Build output
+dist/
+build/
+out/
+.cache/
+.temp/
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.swp
+
+# Dependency directories
+bower_components/
+
+# Sass / Less cache
+.sass-cache/
+*.css.map
+
+# Optional: ignore compiled CSS if you only track source files
+# /assets/css/*.css
+
+# Optional: ignore vendor libraries if you install them automatically
+# /assets/vendor/
+
+# Misc
+*.bak
+*.tmp
