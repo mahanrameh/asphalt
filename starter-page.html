@@ -1,87 +1,75 @@
 <!DOCTYPE html>
-<html lang="fa" dir="rtl">
+<html lang="fa">
 
 <head>
   <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Starter Page - PhotoFolio Bootstrap Template</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO Title -->
+  <title>شرکت راه‌پی هخامنش | پیمانکار راه‌سازی، آسفالت و پروژه‌های عمرانی</title>
+
+  <!-- SEO Description -->
+  <meta name="description" content="شرکت راه‌پی هخامنش، پیمانکار تخصصی راه‌سازی، آسفالت، ابنیه و پروژه‌های عمرانی. اجرای پروژه‌ها با کیفیت، سرعت و استانداردهای فنی.">
+
+  <!-- SEO Keywords -->
+  <meta name="keywords" content="راه‌سازی, آسفالت, پروژه عمرانی, ابنیه, تأسیسات, شرکت پیمانکاری, راه پی هخامنش, پیمانکار تهران, پیمانکار ورامین">
+
+  <!-- Language -->
+  <meta http-equiv="Content-Language" content="fa">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="شرکت راه‌پی هخامنش">
+  <meta property="og:description" content="پیمانکار تخصصی راه‌سازی، آسفالت و پروژه‌های عمرانی">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/img/preview.jpg">
+  <meta property="og:locale" content="fa_IR">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Cardo:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <!-- Persian Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;700;900&display=swap" rel="stylesheet">
 
-  <!-- Vendor CSS Files -->
+  <!-- Vendor CSS -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-  <!-- Main CSS File -->
+  <!-- Main CSS -->
   <link href="assets/css/main.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: PhotoFolio
-  * Template URL: https://bootstrapmade.com/photofolio-bootstrap-photography-website-template/
-  * Updated: Aug 07 2024 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body class="starter-page-page">
 
+  <!-- Header -->
   <header id="header" class="header d-flex align-items-center sticky-top">
     <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
 
       <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
-        <i class="bi bi-camera"></i>
-        <h1 class="sitename">PhotoFolio</h1>
+        <i class="bi bi-building"></i>
+        <h1 class="sitename">راه‌پی هخامنش</h1>
       </a>
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="index.html">Home<br></a></li>
-          <li><a href="about.html">About</a></li>
-          <li class="dropdown"><a href="gallery.html"><span>Gallery</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="gallery.html">Nature</a></li>
-              <li><a href="gallery.html">People</a></li>
-              <li><a href="gallery.html">Architecture</a></li>
-              <li><a href="gallery.html">Animals</a></li>
-              <li><a href="gallery.html">Sports</a></li>
-              <li><a href="gallery.html">Travel</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="#">Deep Dropdown 1</a></li>
-                  <li><a href="#">Deep Dropdown 2</a></li>
-                  <li><a href="#">Deep Dropdown 3</a></li>
-                  <li><a href="#">Deep Dropdown 4</a></li>
-                  <li><a href="#">Deep Dropdown 5</a></li>
-                </ul>
-              </li>
-            </ul>
-          </li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="/index.html" class="active">خانه</a></li>
+          <li><a href="/about.html">درباره ما</a></li>
+          <li><a href="/gallery.html">گالری</a></li>
+          <li><a href="/services.html">خدمات</a></li>
+          <li><a href="/contact.html">تماس با ما</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
       <div class="header-social-links">
-        <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
-        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        <a href="tel:+989212358166" class="telephone"><i class="bi bi-telephone"></i></a>
+        <a href="https://t.me/Bhnm_a" class="telegram"><i class="bi bi-telegram"></i></a>
+        <a href="https://wa.me/989212358166" class="whatsapp"><i class="bi bi-whatsapp"></i></a>
+        <a href="tel:+989126483026" class="phone"><i class="bi bi-phone"></i></a>
       </div>
 
     </div>
@@ -95,81 +83,87 @@
         <div class="container">
           <div class="row d-flex justify-content-center text-center">
             <div class="col-lg-8">
-              <h1>Starter Page</h1>
-              <p class="mb-0">Odio et unde deleniti. Deserunt numquam exercitationem. Officiis quo odio sint voluptas consequatur ut a odio voluptatem. Sit dolorum debitis veritatis natus dolores. Quasi ratione sint. Sit quaerat ipsum dolorem.</p>
-              <a href="contact.html" class="cta-btn">Available for Hire<br></a>
+              <h1>صفحه شروع</h1>
+              <p class="mb-0">
+                این صفحه به عنوان یک الگوی پایه برای ساخت صفحات جدید در وب‌سایت شرکت راه‌پی هخامنش طراحی شده است.  
+                شما می‌توانید از این بخش برای افزودن محتوای اختصاصی، معرفی خدمات جدید یا ایجاد صفحات سفارشی استفاده کنید.
+              </p>
+              <a href="contact.html" class="cta-btn">در دسترس برای خدمت‌رسانی</a>
             </div>
           </div>
         </div>
       </div>
+
       <nav class="breadcrumbs">
         <div class="container">
           <ol>
-            <li><a href="index.html">Home</a></li>
-            <li class="current">Starter Page</li>
+            <li><a href="index.html">خانه</a></li>
+            <li class="current">صفحه شروع</li>
           </ol>
         </div>
       </nav>
-    </div><!-- End Page Title -->
+    </div>
 
-    <!-- Starter Section Section -->
+    <!-- Starter Section -->
     <section id="starter-section" class="starter-section section">
 
-      <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Starter Section</h2>
-        <p>Necessitatibus eius consequatur</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up">
-        <p>Use this page as a starter for your own custom pages.</p>
+        <h2>صفحه نمونه</h2>
+        <p>این بخش برای توسعه صفحات جدید و افزودن محتوای دلخواه شما آماده شده است.</p>
       </div>
 
-    </section><!-- /Starter Section Section -->
+      <div class="container" data-aos="fade-up">
+        <p>
+          از این صفحه می‌توانید برای ایجاد بخش‌های جدید، معرفی پروژه‌ها، ارائه توضیحات تکمیلی یا هر نوع محتوای اختصاصی دیگر استفاده کنید.  
+          ساختار این صفحه انعطاف‌پذیر بوده و به شما امکان می‌دهد هر نوع اطلاعاتی را به سادگی اضافه یا ویرایش کنید.
+        </p>
+      </div>
+
+    </section>
 
   </main>
 
+  <!-- Footer -->
   <footer id="footer" class="footer">
 
     <div class="container">
-      <div class="copyright text-center ">
-        <p>© <span>Copyright</span> <strong class="px-1 sitename">PhotoFolio</strong> <span>All Rights Reserved</span></p>
+      <div class="copyright text-center">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">Rahpey</strong> <span>All Rights Reserved</span></p>
       </div>
+
       <div class="social-links d-flex justify-content-center">
-        <a href=""><i class="bi bi-twitter-x"></i></a>
-        <a href=""><i class="bi bi-facebook"></i></a>
-        <a href=""><i class="bi bi-instagram"></i></a>
-        <a href=""><i class="bi bi-linkedin"></i></a>
+        <a href="https://instagram.com/mahan_rm77"><i class="bi bi-instagram"></i></a>
+        <a href="https://t.me/mahanrameh"><i class="bi bi-telegram"></i></a>
+        <a href="https://wa.me/989920770569"><i class="bi bi-whatsapp"></i></a>
+        <a href="tel:+989920770569"><i class="bi bi-phone"></i></a>
       </div>
+
       <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        Designed by <a href="https://github.com/mahanrameh/asphalt">Mahan_rameh</a>
       </div>
     </div>
 
   </footer>
 
   <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center">
+    <i class="bi bi-arrow-up-short"></i>
+  </a>
 
   <!-- Preloader -->
   <div id="preloader">
     <div class="line"></div>
   </div>
 
-  <!-- Vendor JS Files -->
+  <!-- Vendor JS -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
-  <!-- Main JS File -->
+  <!-- Main JS -->
   <script src="assets/js/main.js"></script>
 
 </body>
-
 </html>
