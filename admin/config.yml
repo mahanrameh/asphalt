@@ -2,12 +2,13 @@ backend:
   name: git-gateway
   branch: main
 
+publish_mode: editorial_workflow
+
 media_folder: "images/uploads"
 public_folder: "/images/uploads"
 
 collections:
 
-  # Homepage content
   - name: "homepage"
     label: "Homepage"
     files:
@@ -19,7 +20,6 @@ collections:
           - { label: "Subtitle", name: "subtitle", widget: "string" }
           - { label: "Hero Image", name: "hero", widget: "image" }
 
-  # About page
   - name: "about"
     label: "About Page"
     files:
@@ -30,7 +30,6 @@ collections:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
 
-  # Services page
   - name: "services"
     label: "Services"
     files:
@@ -47,7 +46,6 @@ collections:
               - { label: "Description", name: "description", widget: "text" }
               - { label: "Icon", name: "icon", widget: "string" }
 
-  # Projects (dynamic)
   - name: "projects"
     label: "Projects"
     folder: "content/projects"
